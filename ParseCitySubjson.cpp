@@ -39,6 +39,6 @@ void ParseCountryJson(vector<Country>& countries, vector<City>& cities, const Js
             .country_iso_code = country.iso_code,
             .country_phone_code = country.phone_code,
             .country_time_zone = country.time_zone,
-            .languages = country.langueges });
+            .languages = country.languages });
     }
 }
